@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tvShowTestCover.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

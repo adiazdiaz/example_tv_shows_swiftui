@@ -11,7 +11,7 @@ import SwiftUI
 struct ExampleTVShowsSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(mock: false)
         }
     }
 }

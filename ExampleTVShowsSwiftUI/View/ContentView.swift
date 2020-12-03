@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let mock: Bool?
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        PopularTVShowsView(mock: mock)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(mock: true)
     }
 }
