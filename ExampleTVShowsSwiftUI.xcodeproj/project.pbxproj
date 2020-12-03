@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E019FCBC25796B570014276D /* TVShowDetailCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019FCBB25796B570014276D /* TVShowDetailCoverView.swift */; };
+		E019FCC725797FFD0014276D /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E019FCC625797FFD0014276D /* UINavigationController.swift */; };
 		E0403C39256B05DE00D9D321 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0403C38256B05DE00D9D321 /* ParameterEncoding.swift */; };
 		E0403C3C256B060000D9D321 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0403C3B256B060000D9D321 /* URLParameterEncoder.swift */; };
 		E0403C40256B164E00D9D321 /* TVShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0403C3F256B164E00D9D321 /* TVShowDetailView.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		E019FCBB25796B570014276D /* TVShowDetailCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailCoverView.swift; sourceTree = "<group>"; };
+		E019FCC625797FFD0014276D /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		E0403C38256B05DE00D9D321 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		E0403C3B256B060000D9D321 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		E0403C3F256B164E00D9D321 /* TVShowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowDetailView.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			children = (
 				E0C5D261255FFE3A00859C8E /* BundleExtension.swift */,
 				E0B211FD2576C32100B39889 /* FileManagerExtension.swift */,
+				E019FCC625797FFD0014276D /* UINavigationController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				E0C5D250255FFAAC00859C8E /* TVShowsResponse.swift in Sources */,
 				E0C5D274256007A800859C8E /* PopularTvShowsItemView.swift in Sources */,
 				E0A3A2E5256AEFCB0096CEF8 /* APITheMovieDB.swift in Sources */,
+				E019FCC725797FFD0014276D /* UINavigationController.swift in Sources */,
 				E0403C44256B173000D9D321 /* TVShowDetailViewModel.swift in Sources */,
 				E0C5D26B2560045600859C8E /* ContentView.swift in Sources */,
 				E0B211F72576BE5C00B39889 /* GetNetworkImageViewModel.swift in Sources */,

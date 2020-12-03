@@ -13,6 +13,15 @@ struct TVShowDetailView: View {
     
     @StateObject var tvShowDetailViewModel = TVShowDetailViewModel()
     
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    var buttonBack : some View {
+        Button(action: { self.presentationMode.wrappedValue.dismiss() }) {
+            Image(systemName: "chevron.left.circle.fill")
+                .foregroundColor(Color.init(.lightGray))
+                .font(.title)
+        }
+    }
+    
     var body: some View {
         ScrollView {
             VStack(spacing: -30) {
@@ -35,6 +44,8 @@ struct TVShowDetailView: View {
             }
         }
         .ignoresSafeArea()
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: buttonBack)
         .onAppear {
             tvShowDetailViewModel.getTVShowDetail(tvShowId: tvShowId, mock: mock)
         }

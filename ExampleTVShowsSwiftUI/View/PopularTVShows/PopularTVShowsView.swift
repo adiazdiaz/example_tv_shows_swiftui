@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PopularTVShowsView: View {
     let mock: Bool?
-    
+
     @StateObject var popularTVShowsViewModel = PopularTVShowsViewModel()
     
     let columns:[GridItem] = Array(repeating: .init(.flexible(), spacing: 20), count: 3)
